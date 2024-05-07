@@ -1,0 +1,11 @@
+../Core/Src/test.c:30:6:drawtestpage	32	static
+../Core/Src/test.c:50:6:main_test	24	static
+../Core/Src/test.c:67:6:test_color	24	static
+../Core/Src/test.c:89:6:test_fillrec	32	static
+../Core/Src/test.c:119:6:test_circle	24	static
+../Core/Src/test.c:140:6:english_font_test	24	static
+../Core/Src/test.c:162:6:test_triangle	40	static
+../Core/Src/test.c:189:6:chinese_font_test	24	static
+../Core/Src/test.c:206:6:pic_test	24	static
+../Core/Src/test.c:223:6:rotate_test	56	static
+../Core/Src/test.c:254:6:test_read	64	static
