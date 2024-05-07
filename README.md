@@ -1,6 +1,33 @@
 # STM32F407G-DISC1
 STM32F407G-DISC1 with STM32F407VGT6 MCU
 
+# FSMC Pinout
+
+| LCD | STM32 | Discription |
+|-----------|-----------|-----------|
+| D 0  | PD 14  | / |
+| D 1  | PD 14  | / |
+| D 2  | PD 0  | / |
+| D 3  | PD 1  | / |
+| D 4  | PE 7  |/|
+| D 5  | PE 8  |/|
+| D 6  | PE 9  |/ |
+| D 7  | PE 10  |/|
+| D 8  | PE 11  |/|
+| D 9  | PE 12  |/|
+| D 10 | PE 13 | /|
+| D 11 | PE 14 |/ |
+| D 12 | PE 15 |/|
+| D 13 | PD 8 | /|
+| D 14 | PD 9 | /|
+| D 15 | PD 10 | /|
+| LCD_CS | PD 7 (NE1) | LCD Chip Selection |
+| DC | PD 11 (Ax) | Instruction/Data Register Selection |
+| WR | PD 5 (NWE)| Write Action |
+| RD | PD 4 (NOE) | Read Action |
+| LCD_RST | PB 1???? | Reset |
+| BL | PB 0 | Backlight Adjustment |
+
 
 # USEFULL LINKS
 ### Display WIKI Page
