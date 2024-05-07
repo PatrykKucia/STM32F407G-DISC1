@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (11.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -60,8 +60,8 @@ all: main-build
 main-build: ostatni.elf secondary-outputs
 
 # Tool invocations
-ostatni.elf ostatni.map: $(OBJS) $(USER_OBJS) C:\Users\patti\Desktop\NT35510\ 4inch\ 480\ x\ 800\ Waveshare\Demo\ Code\ost\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ostatni.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\patti\Desktop\NT35510 4inch 480 x 800 Waveshare\Demo Code\ost\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ostatni.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+ostatni.elf ostatni.map: $(OBJS) $(USER_OBJS) E:\git_repos\STM32F407G-DISC1\Test\ Codes\ost\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ostatni.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\git_repos\STM32F407G-DISC1\Test Codes\ost\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ostatni.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

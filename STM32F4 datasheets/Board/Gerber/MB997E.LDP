@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Subversion\Boards\MB997-STM32F4-Manta1M-413-disc1\Trunk\01-Design_Source\Altium_Designer\MB997.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=mb997e-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=mb997e-nonplated.txt|DrillLayers=gtl,gbl

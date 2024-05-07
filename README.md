@@ -1,7 +1,17 @@
-# STM32F407G-DISC1
+# STM32F407VG-DISC1 (rev_E01)
 STM32F407G-DISC1 with STM32F407VGT6 MCU
-
+## HSE 8 MHZ 
+![alt text](image-3.png)
+![alt text](image-2.png)
+PH0 and PH1 pins are disconnected in default, SB13 and SB14 need to be soldered to connect external pins. The external clock reaches the MCU correctly.HSE working ok on MX_tester code
 # FSMC Pinout
+
+<div style="display: flex;">
+    <img src="image.png" alt="Image 1" style="flex: 1; margin-right: 10px;">
+    <img src="image-1.png" alt="Image 2" style="flex: 1; margin-left: 10px;">
+</div>
+
+<div align="center">
 
 | LCD | STM32 | Discription |
 |-----------|-----------|-----------|
@@ -21,15 +31,24 @@ STM32F407G-DISC1 with STM32F407VGT6 MCU
 | D 13 | PD 8 | /|
 | D 14 | PD 9 | /|
 | D 15 | PD 10 | /|
-| LCD_CS | PD 7 (NE1) | LCD Chip Selection |
+| LCD_CS | PD 7 (NE1) | LCD Chip Selection/Low->enable |
 | DC | PD 11 (Ax) | Instruction/Data Register Selection |
 | WR | PD 5 (NWE)| Write Action |
 | RD | PD 4 (NOE) | Read Action |
-| LCD_RST | PB 1???? | Reset |
+| LCD_RST | \ | Reset Low->reset PULLUP!!|
 | BL | PB 0 | Backlight Adjustment |
 
+</div>
 
+Topic with FSMC adress explanation
+https://community.st.com/t5/stm32-mcus-touchgfx-and-gui/fsmc-why-do-i-need-it/td-p/448272?fbclid=IwZXh0bgNhZW0CMTAAAR3YomTOtSPmas-gZEZ78_OA-TBQG1XqcFvMaPbQt9ZJvrhqtkcoQAQAtso_aem_AYiBd74xSdkQfUi5olx5jEQZkNxZfcnN8qRbCv7A_GU4cjiZqksG3wuHf87tbrJyksve9GAdm39Xd6265T56Vvqb
+![alt text](image-4.png)
+
+# FSMC STM32 Configuration
+![alt text](image-5.png)
+![alt text](image-6.png)
 # USEFULL LINKS
+
 ### Display WIKI Page
 https://www.waveshare.com/wiki/4inch_Resistive_Touch_LCD
 

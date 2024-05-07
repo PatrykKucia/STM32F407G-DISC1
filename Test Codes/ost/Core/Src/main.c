@@ -69,6 +69,7 @@ void SystemClock_Config(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -94,6 +95,10 @@ int main(void)
   MX_FSMC_Init();
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
+
+ // HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);
+
+
 	//HAL_GPIO_WritePin(GPIOB,BL_Pin,GPIO_PIN_SET);
   lcd_init();
   //lcd_clear(BLUE);
@@ -103,18 +108,18 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		lcd_clear(WHITE);
-			HAL_GPIO_WritePin(GPIOB,BL_Pin,GPIO_PIN_SET);
-			main_test();
-			test_read();
-			test_color();
-			test_fillrec();
-				test_circle();
-			test_triangle();
-			english_font_test();
-			chinese_font_test();
-			pic_test();
-			rotate_test();
+	  lcd_clear(WHITE);
+	  		HAL_GPIO_WritePin(GPIOB,BL_Pin,GPIO_PIN_SET);
+	  		main_test();
+	  		test_read();
+	  		test_color();
+	  		test_fillrec();
+	  		test_circle();
+	  		test_triangle();
+	  		english_font_test();
+	  		chinese_font_test();
+	  		pic_test();
+	  		rotate_test();
 
     /* USER CODE END WHILE */
 

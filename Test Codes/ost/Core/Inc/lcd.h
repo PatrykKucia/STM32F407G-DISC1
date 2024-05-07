@@ -46,7 +46,12 @@ typedef struct
 //#define LCD_REG              (*((volatile uint16_t *) 0x60000000)) /* RS = 0 */ łyka ale nie działa
 //#define LCD_RAM              (*((volatile uint16_t *) 0x60020000)) /* RS = 1 *
 
-#define LCD_BASE        		((uint32_t)(0x6C000000 | 0x0000FFFE))
+#define FSMC_BANK1_ADDRESS 0x60000000
+#define TFT_PIN_ADDRESS (1 << (16 + 1)) // This would be for the A6 pin and it should equal 0x80
+#define TFT_BASE_ADDRESS ((uint32_t*)(FSMC_BANK1_ADDRESS | (TFT_PIN_ADDRESS - 2)))
+#define LCD_BASE ((LCD_TypeDef *)TFT_BASE_ADDRESS)
+
+//#define LCD_BASE        		((uint32_t)(0x6C000000 | 0x0000FFFE))
 #define LCD             		((LCD_TypeDef *) LCD_BASE)
 
 #define WHITE       				0xFFFF

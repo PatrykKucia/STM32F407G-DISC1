@@ -70,8 +70,11 @@ void Error_Handler(void);
 #define TP_MISO_GPIO_Port GPIOB
 #define TP_MOSI_Pin GPIO_PIN_15
 #define TP_MOSI_GPIO_Port GPIOB
-/* USER CODE BEGIN Private defines */
 
+
+/* USER CODE BEGIN Private defines */
+#define LED_TEST_Pin GPIO_PIN_13
+#define LED_TEST_GPIO_Port GPIOD
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
