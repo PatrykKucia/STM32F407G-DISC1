@@ -44,6 +44,12 @@ Topic with FSMC adress explanation
 https://community.st.com/t5/stm32-mcus-touchgfx-and-gui/fsmc-why-do-i-need-it/td-p/448272?fbclid=IwZXh0bgNhZW0CMTAAAR3YomTOtSPmas-gZEZ78_OA-TBQG1XqcFvMaPbQt9ZJvrhqtkcoQAQAtso_aem_AYiBd74xSdkQfUi5olx5jEQZkNxZfcnN8qRbCv7A_GU4cjiZqksG3wuHf87tbrJyksve9GAdm39Xd6265T56Vvqb
 ![alt text](image-4.png)
 
+# Understanding FSMC
+
+STM tutorials from other MCU
+https://www.st.com/resource/en/product_training/stm32l4_memory_fsmc.pdf
+https://www.st.com/resource/en/product_training/STM32MP1-Memory-Flexible_Memory_Controller_FMC.pdf
+
 # FSMC STM32 Configuration
 ![alt text](image-5.png)
 ![alt text](image-6.png)
