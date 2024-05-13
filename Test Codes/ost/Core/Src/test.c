@@ -47,20 +47,20 @@ int max(int a, int b) {
 }
 
 
-//void draw_speed_indicator(float speed) {
-//    // Calculate the length of the speed indicator rectangle based on the current speed and maximum speed
-//    float length_ratio = speed / max_speed;
-//    int rect_length = (int)(SPEED_RECT_WIDTH * length_ratio);
-//
-//    // Erase the previous pointer position by filling it with white
-//    lcd_fill(prev_end_x, SPEED_RECT_Y, prev_end_x + POINTER_LENGTH, SPEED_RECT_Y + SPEED_RECT_HEIGHT, WHITE);
-//
-//    // Draw the changing part of the speed indicator rectangle in red
-//    lcd_fill(SPEED_RECT_X, SPEED_RECT_Y, SPEED_RECT_X + rect_length, SPEED_RECT_Y + SPEED_RECT_HEIGHT, RED);
-//
-//    // Update previous endpoint coordinates
-//    prev_end_x = SPEED_RECT_X + rect_length;
-//}
+void draw_speed_indicator(float speed) {
+    // Calculate the length of the speed indicator rectangle based on the current speed and maximum speed
+    float length_ratio = speed / max_speed;
+    int rect_length = (int)(SPEED_RECT_WIDTH * length_ratio);
+
+    // Erase the previous pointer position by filling it with white
+    lcd_fill(prev_end_x, SPEED_RECT_Y, prev_end_x + POINTER_LENGTH, SPEED_RECT_Y + SPEED_RECT_HEIGHT, WHITE);
+
+    // Draw the changing part of the speed indicator rectangle in red
+    lcd_fill(SPEED_RECT_X, SPEED_RECT_Y, SPEED_RECT_X + rect_length, SPEED_RECT_Y + SPEED_RECT_HEIGHT, RED);
+
+    // Update previous endpoint coordinates
+    prev_end_x = SPEED_RECT_X + rect_length;
+}
 
 
 void update_speed(float new_speed) {

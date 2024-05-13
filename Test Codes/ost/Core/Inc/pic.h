@@ -1,6 +1,6 @@
 
 #ifndef __PIC_H
-#define __PIC_H 
+#define __PIC_H
 
 
 const unsigned char gImage_waveshare[72000] = { /* 0X00,0X10,0X68,0X01,0X64,0X00,0X01,0X1B, */
