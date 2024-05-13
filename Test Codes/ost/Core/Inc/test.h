@@ -12,6 +12,12 @@
 
 #include "stdint.h"
 
+int max(int , int );
+void draw_speed_indicator(float);
+void update_speed(float);
+void simulate_speed_change(void);
+void dynamic_rotation_test(void);
+void draw_rotated_pointer(float);
 void drawtestpage(uint8_t *str);
 void test_color(void);
 void test_fillrec(void);

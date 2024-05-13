@@ -110,16 +110,19 @@ int main(void)
   {
 	  lcd_clear(WHITE);
 	  		HAL_GPIO_WritePin(GPIOB,BL_Pin,GPIO_PIN_SET);
-	  		main_test();
-	  		test_read();
-	  		test_color();
-	  		test_fillrec();
-	  		test_circle();
-	  		test_triangle();
-	  		english_font_test();
-	  		chinese_font_test();
-	  		pic_test();
-	  		rotate_test();
+//	  		main_test();
+//	  		test_read();
+//	  		test_color();
+//	  		test_fillrec();
+//	  		test_circle();
+	  		lcd_direction(1);
+	  		simulate_speed_change();
+	  	//	dynamic_rotation_test();
+	  		//test_triangle();
+//	  		english_font_test();
+//	  		chinese_font_test();
+	  //pic_test();
+//	  		rotate_test();
 
     /* USER CODE END WHILE */
 
