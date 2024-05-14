@@ -114,3 +114,8 @@ https://community.st.com/t5/stm32cubeide-mcus/how-to-use-stm32f407-fsmc-memory/t
 # touchGFX
 https://support.touchgfx.com/docs/category/basic-concepts
 https://www.youtube.com/watch?v=SRQD8JMeg_k&ab_channel=embryonic.dk
+
+# CAN 
+https://www.youtube.com/watch?v=KHNRftBa1Vc&ab_channel=ControllersTech
+https://controllerstech.com/can-protocol-in-stm32/
+https://www.dailyduino.com/index.php/2020/06/01/stm32-can-bus/
