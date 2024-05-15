@@ -119,3 +119,28 @@ https://www.youtube.com/watch?v=SRQD8JMeg_k&ab_channel=embryonic.dk
 https://www.youtube.com/watch?v=KHNRftBa1Vc&ab_channel=ControllersTech
 https://controllerstech.com/can-protocol-in-stm32/
 https://www.dailyduino.com/index.php/2020/06/01/stm32-can-bus/
+
+For now working only on CAN1 -> MASTER, CAN 1 can be on PD0(RX) PD1(TX) which conflicts FSMC, alternatively it can be placed on PA11(RX) and PA10(TX) but on DISCO booard they are connected to USB. 
+![alt text](image-9.png)
+
+CAN2 working??? -> TBA ![alt text](image-10.png)
+
+## hardware and software config
+
+PD0(RX) -> RTX
+PD1(TX) -> CTX
+CANL -> CANL
+CANH -> CANH
+
+ANALOG:
+DIO1(RX) -> RTX
+DIO1(TX) -> CTX
+
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+
+CAN1/CAN2 working : 
+https://community.st.com/t5/stm32-mcus-products/using-can2-slave-without-can1-master/td-p/366990
+https://community.st.com/t5/stm32-mcus-products/can2-in-stm32f407-is-not-working/td-p/52287
