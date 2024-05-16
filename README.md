@@ -144,3 +144,7 @@ DIO1(TX) -> CTX
 CAN1/CAN2 working : 
 https://community.st.com/t5/stm32-mcus-products/using-can2-slave-without-can1-master/td-p/366990
 https://community.st.com/t5/stm32-mcus-products/can2-in-stm32f407-is-not-working/td-p/52287
+
+
+# Cortex M4 with bigger flash
+![alt text](image-15.png)
