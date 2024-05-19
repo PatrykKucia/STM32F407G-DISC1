@@ -148,3 +148,7 @@ https://community.st.com/t5/stm32-mcus-products/can2-in-stm32f407-is-not-working
 
 # Cortex M4 with bigger flash
 ![alt text](image-15.png)
+
+#PCB Design 
+https://www.youtube.com/watch?v=aVUqaB0IMh4&ab_channel=Phil%E2%80%99sLab
+https://www.youtube.com/watch?v=Rgaq5ax71fE&ab_channel=DeepBlueMbedded
