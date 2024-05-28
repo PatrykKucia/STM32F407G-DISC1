@@ -14,6 +14,7 @@
 #include "test.h"
 #include <math.h>
 #include "pic.h"
+#include "pic2.h"
 
 //========================variable==========================//
 uint16_t ColorTab[5]={RED,GREEN,BLUE,YELLOW,BRED};
@@ -36,7 +37,7 @@ uint16_t ColornTab[8]={RED,MAGENTA,GREEN,DARKBLUE,BLUE,BLACK,LIGHTGREEN};
 #define SPEED_RECT_WIDTH 200
 #define SPEED_RECT_HEIGHT 100
 #define SPEED_RECT_X 20
-#define SPEED_RECT_Y 50
+#define SPEED_RECT_Y 350
 // Previous endpoint coordinates to erase the previous pointer position
 int prev_end_x, prev_end_y;
 float current_speed = 0.0;
@@ -306,14 +307,29 @@ void chinese_font_test(void)
  * @parameters :None
  * @retvalue   :None
 ******************************************************************************/
+//void pic_test(void)
+//{
+//	drawtestpage((uint8_t *)"����8:ͼƬ��ʾ����");
+//
+//	gui_drawbmp16(50,300,360,100,gImage_waveshare);
+//	show_str(200,75,BLUE,YELLOW,(uint8_t *)"waveshare",16,1);
+//	HAL_Delay(1200);
+//	HAL_Delay(1200);
+//}
+
 void pic_test(void)
 {
-	drawtestpage((uint8_t *)"����8:ͼƬ��ʾ����");
-	
-	gui_drawbmp16(50,300,360,100,gImage_waveshare);
-	show_str(200,75,BLUE,YELLOW,(uint8_t *)"waveshare",16,1);
-	HAL_Delay(1200);
-	HAL_Delay(1200);
+		gui_drawbmp16(0,0,360,100,gImage_waveshare);
+		HAL_Delay(1200);
+		gui_drawbmp16(0,0,650,279 ,gImage_LOGO);
+		//drawtestpage((uint8_t *)"����8:ͼƬ��ʾ����");
+
+
+		//gui_drawbmp16(0,0,360,100,gImage_waveshare);
+		show_str(200,75,BLUE,YELLOW,(uint8_t *)"waveshare",16,1);
+
+	//HAL_Delay(1200);
+	//HAL_Delay(1200);
 }
 
 /*****************************************************************************

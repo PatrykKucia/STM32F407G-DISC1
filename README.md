@@ -111,6 +111,11 @@ https://community.st.com/t5/stm32-mcus-products/tft-lcd-with-fsmc-and-external-r
 https://community.st.com/t5/stm32-mcus-touchgfx-and-gui/sram-fsmc-framebuffer-gt-8080-lcd-fsmc-dma-transfers-example/td-p/235504
 https://community.st.com/t5/stm32cubeide-mcus/how-to-use-stm32f407-fsmc-memory/td-p/195061
 
+
+# bitmap displaying
+FLASH full in this config !!!
+
+![alt text](image-16.png)
 # touchGFX
 https://support.touchgfx.com/docs/category/basic-concepts
 https://www.youtube.com/watch?v=SRQD8JMeg_k&ab_channel=embryonic.dk

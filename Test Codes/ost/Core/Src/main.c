@@ -118,26 +118,26 @@ int main(void)
   lcd_direction(1);
   //lcd_clear(BLUE);
   int value = 100;
+  pic_test();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	        //lcd_clear(WHITE);
-	  		HAL_GPIO_WritePin(GPIOB,BL_Pin,GPIO_PIN_SET);
+	       // lcd_clear(WHITE);
+//	  		HAL_GPIO_WritePin(GPIOB,BL_Pin,GPIO_PIN_SET);
 //	  		main_test();
 //	  		test_read();
 //	  		test_color();
 //	  		test_fillrec();
 //	  		test_circle();
-
-	  		//simulate_speed_change();
-	  	//	dynamic_rotation_test();
-	  		//test_triangle();
+//           // simulate_speed_change();
+	  	  	 //dynamic_rotation_test();
+//            test_triangle();
 //	  		english_font_test();
 //	  		chinese_font_test();
-	  //pic_test();
+           // pic_test();
 //	  		rotate_test();
 
 	  		HAL_ADC_Start(&hadc1);
