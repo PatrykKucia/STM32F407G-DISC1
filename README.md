@@ -120,6 +120,9 @@ FLASH full in this config !!!
 https://support.touchgfx.com/docs/category/basic-concepts
 https://www.youtube.com/watch?v=SRQD8JMeg_k&ab_channel=embryonic.dk
 
+super tuto na custom board 
+https://helentronica.com/2021/01/22/touchgfx-on-a-custom-made-low-cost-board-with-the-ili9341-controller-over-spi/
+
 # CAN 
 https://www.youtube.com/watch?v=KHNRftBa1Vc&ab_channel=ControllersTech
 https://controllerstech.com/can-protocol-in-stm32/
@@ -161,4 +164,15 @@ https://www.youtube.com/watch?v=Rgaq5ax71fE&ab_channel=DeepBlueMbedded
 
 Great tutorial about basic STM32 design
 https://wiki-power.com/en/STM32F4%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/
+
+
+
+# frame buffer i external ram !!!!!
+https://support.touchgfx.com/docs/basic-concepts/framebuffer    
+https://support.touchgfx.com/docs/development/touchgfx-hal-development/scenarios/scenarios-framebuffer-strategies
+https://support.touchgfx.com/docs/development/board-bring-up/how-to/04-enable-external-ram
+![alt text](image-18.png)
+![alt text](image-17.png)
+https://support.touchgfx.com/docs/development/hardware-selection/hardware-components/hardware-selection-external-memories
+https://support.touchgfx.com/docs/development/board-bring-up/how-to/06-flash-external-addressable
 ---
